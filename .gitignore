@@ -1,0 +1,110 @@
+# =========================
+# Visual Studio / MSBuild
+# =========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+ipch/
+.vscode/
+
+# VS local settings / cache
+*.aps
+*.ncb
+*.opendb
+
+# =========================
+# Build outputs (MSBuild)
+# =========================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ll]og/
+Out/
+TestResults/
+
+# If you use CMake from VS
+CMakeSettings.json.user
+CMakeUserPresets.json
+CMakePresets.json.user
+cmake-build-*/
+out/build*/
+out/install*/
+
+# =========================
+# Intermediate / temp
+# =========================
+*.tlog
+*.idb
+*.ilk
+*.pdb
+*.ipdb
+*.iobj
+*.pch
+*.obj
+*.sbr
+*.bsc
+*.res
+*.tmp
+*.temp
+*.log
+*.cache
+
+# =========================
+# Output binaries (usually don't commit)
+# =========================
+*.exe
+*.dll
+*.sys
+*.ocx
+*.so
+*.dylib
+*.lib
+*.a
+*.exp
+
+# =========================
+# Debug / trace dumps
+# =========================
+*.dmp
+*.dump
+*.stackdump
+
+# =========================
+# NuGet (optional)
+# =========================
+packages/
+*.nupkg
+
+# =========================
+# vcpkg (optional, if you vendor it)
+# =========================
+vcpkg_installed/
+# If you keep vcpkg as a submodule or external, don't ignore its root folder by default.
+
+# =========================
+# Clang / clangd / static analysis
+# =========================
+compile_commands.json
+.clangd/
+.clang-tidy
+*.sarif
+
+# =========================
+# Windows / OS junk
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
